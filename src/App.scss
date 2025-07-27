@@ -1,0 +1,8 @@
+.App__main-page-content {
+  padding-top: 20px; // ✅ 40px top offset + 60px navbar height + 20px breathing room
+  padding-left: 30px; // ✅ Matches navbar left spacing
+  padding-right: 30px; // ✅ Matches navbar right spacing
+} 
+body {
+  font-family: 'Raleway', sans-serif;
+}

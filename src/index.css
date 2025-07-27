@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+:root{
+  --neon-background-color: #0a0a0a;
+  --neon-main-color: linear-gradient(90deg, #8a4cfb, #00f0ff); /* purple to blue gradient */
+  --neon-sub-text-color: #a3f0ff;
+  --neon-nav-background-color: #0d0d0d;
+
+  --neon-glow: 0 0 5px #8a4cfb, 0 0 10px #00f0ff, 0 0 20px #8a4cfb;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size:62.5%;
+    height:100%;
+}
+
+body{
+    background: var(--neon-background-color);
+    height: 100%;
+}
+
+#root{
+    height:100%;
+}
